@@ -1,0 +1,31 @@
+-blog sayfasında ana kategoriler sıralanırken gelen kategori sayısına göre dinamik hareket etmeli
+	(Başlıkların margintop değeri, kategori sayısına göre kategorilerin width değeri)
+
+-footerdaki sosyal medya butonları dinamik olmalı
+
+-Statik sayfaların başlıklarını H1 içine al
+
+-highlights enum olmalı. Nasıl olduğunu araştır
+
+-kategorilerin sıralaması belirlenebilir olmalı
+-Kategori modeli şu şekilde olmalı
+
+    Ana kategori:
+    id,
+    name,
+    description,
+    image,
+    queuePoint,
+    subCategories : []
+
+    Alt kategoriler
+    id,
+    name,
+    descripton,
+    queuePoint
+
+-sosyal medya butonlarının sıralamaları belirlenebilir olmalı
+
+-Modal aç kapa yapısı düzenlenmeli
+
+-Alt kategori düzenle modalında seçilen ana kategori otomatik olarak dropdown'a gelmeli

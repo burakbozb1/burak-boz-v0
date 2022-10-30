@@ -1,0 +1,297 @@
+#blog-main-categories-wrapper
+{
+    width: 1024px;
+    height: 354px;
+    float: left;
+    /* background-color: bisque; */
+}
+
+#blog-main-category-title
+{
+    width: 1024px;
+    height: 35px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+#blog-main-categories
+{
+    width: 1024px;
+    height: 314px;
+    float: left;
+}
+
+.blog-main-category
+{
+    width: 190px;
+    height: 300px;
+    float: left;
+    border: 7px solid #FFF;
+}
+
+.blog-main-category:hover
+{
+    border: 7px solid red;
+}
+
+
+.blog-main-category-name
+{
+    width: 190px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#blog-main-last-posts
+{
+    width: 1024px;
+    height: auto;
+    float: left;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#blog-main-last-posts-title
+{
+    width: 1024px;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#blog-main-last-posts-contents
+{
+    width: 1024px;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+}
+
+#blog-main-last-posts-contents a
+{
+    color: #000;
+}
+
+.blog-main-content1
+{
+    width: 1014px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.blog-main-content1:hover
+{
+    background-color: white;
+}
+
+.content-image
+{
+    width: 200px;
+    height: 150px;
+    float: left;
+    background-color: brown;
+}
+
+.content-text-area
+{
+    width: 794px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.content-text-title
+{
+    width: 794px;
+    height: auto;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content-text-title span
+{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.content-text-text
+{
+    width: 794px;
+    height: auto;
+    float: left;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.content-text-category
+{
+    width: 794px;
+    height: auto;
+    float: left;
+    font-size: 16px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#blog-detail-title
+{
+    width: 1004px;
+    height: auto;
+    float: left;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#blog-datail-content
+{
+    width: 1004px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#blog-category-title
+{
+    width: 1004px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#blog-category-subtitles
+{
+    width: 1004px;
+    height: auto;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#blog-category-subtitles ul
+{
+    width: 1004px;
+    height: auto;
+    list-style: none;
+}
+
+#blog-category-subtitles ul li
+{
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline;
+}
+
+#blog-category-subtitles ul li a
+{
+    width: auto;
+    height: auto;
+    color: #000;
+}
+
+#blog-category-subtitles ul li a:hover
+{
+    width: auto;
+    height: auto;
+    color: #000;
+    text-decoration: underline;
+}
+
+#blog-category-filter-area
+{
+    width: 1004px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#blog-category-contents-area
+{
+    width: 1024px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+}
+
+#blog-category-contents-area a
+{
+    color: #000;
+}
+
+.blog-category-content1
+{
+    width: 1004px;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+
+.blog-category-content1:hover
+{
+    background-color: #FFF;
+}
+
+.blog-content-image-area
+{
+    width: 200px;
+    height: 150px;
+    float: left;
+    background-color: black;
+
+}
+
+.blog-content-text-area
+{
+    width: 800px;
+    height: auto;
+    float: left;
+    margin-left: 4px;
+}
+
+.blog-content-text-area-title
+{
+    width: 800px;
+    height: auto;
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.blog-content-text-area-title span
+{
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    display: inline;
+    font-weight: normal;
+}
+
+.blog-content-text-area-text
+{
+    width: 800px;
+    height: auto;
+    float: left;
+    font-size: 18px;
+}

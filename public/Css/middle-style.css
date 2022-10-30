@@ -1,0 +1,165 @@
+.middle-wrapper
+{
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+    float: left;
+}
+
+.home-widget-line
+{
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+    float: left;
+}
+
+
+#highlight
+{
+    width: 400px;
+    height: 350px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: 3px solid #FFF;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#highlight:hover
+{
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+#highlite-title
+{
+    width: 380px;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-size: 22px;
+    color: #FFF;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#highlite-context-title
+{
+    width: 380px;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    color: #FFF;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#highlight-image
+{
+    width: 350px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#highlight-text
+{
+    width: 380px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #FFF;
+}
+
+#highlight-text a
+{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+#last-post
+{
+    width: 400px;
+    height: 160px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 40px;
+    border: 3px solid #FFF;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#last-post:hover
+{
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+#last-post-ImageArea
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 25px;
+}
+
+#last-post-TextArea
+{
+    width: 240px;
+    height: auto;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+#last-post-title
+{
+    width: 400px;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+    padding-top: 10px;
+}
+
+#last-post-context-title
+{
+    width: 240px;
+    height: auto;
+    float: left;
+    text-align: left;
+    font-size: 18px;
+    color: #FFF;
+}
+
+#last-post-image
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: aqua;
+}
+
+#last-post-text
+{
+    width: 240px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    color: #FFF;
+    font-size: 14px;
+    text-align: left;
+}
+
+#last-post-text a
+{
+    color: #FFF;
+    text-decoration: underline;
+}

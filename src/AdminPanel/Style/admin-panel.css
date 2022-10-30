@@ -1,0 +1,397 @@
+#admin-navbar
+{
+    width: 200px;
+    height: 100vh;
+    float: left;
+    background-color: aqua;
+}
+
+#admin-navbar-logo-area
+{
+    width: 200px;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#admin-navbar-menu-area
+{
+    width: 180px;
+    height: auto;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+#admin-navbar-menu
+{
+    width: 180px;
+    height: auto;
+    float: left;
+}
+
+#admin-navbar-menu ul
+{
+    width: 180px;
+    height: auto;
+    float: left;
+    list-style: none;
+}
+
+#admin-navbar-menu ul li
+{
+    width: 180px;
+    height: auto;
+    float: left;
+}
+#admin-navbar-menu ul li a
+{
+    width: 180px;
+    height: auto;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+#admin-navbar-menu ul li a:hover
+{
+    font-weight: bold;
+}
+
+#admin-panel-content-area
+{
+    height: 100vh;
+    float: left;
+    background-color: aquamarine;
+    width: 1300px;
+}
+
+#admin-panel-content-title-area
+{
+    min-width: 1000px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#admin-panel-rtxt-area
+{
+    min-width: 1000px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.panel-container
+{
+    min-width: 1000px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.panel-line
+{
+    min-width: 1000px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.panel-line-title
+{
+    min-width: 1000px;
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.category-main
+{
+    width: 1000px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    border: 1px solid #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.category-title
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.category-main-id
+{
+    width: 40px;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+.category-main-name
+{
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}
+
+.category-main-description
+{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}
+
+.category-main-image
+{
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.category-main-queue-point
+{
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.category-main-isActive
+{
+    width: 50px;
+    height: auto;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.category-main-delete
+{
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.category-main-update
+{
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.category-main-show-subs
+{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.category-subs
+{
+    width: 950px;
+    height: auto;
+    float: left;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+}
+
+.category-sub-title
+{
+    width: 950px;
+    height: auto;
+    float: left;
+}
+
+.category-sub
+{
+    width: 950px;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+}
+
+.category-sub-id
+{
+    width: 50px;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+.category-sub-name
+{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+.category-sub-description
+{
+    width: 300px;
+    height: auto;
+    float: left;
+}
+
+.category-sub-queue-point
+{
+    width: 50px;
+    height: auto;
+    float: left;
+}
+
+.category-sub-isActive
+{
+    width: 50px;
+    height: auto;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.category-sub-delete
+{
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.category-sub-update
+{
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.add-button
+{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.social-media-line
+{
+    width: 978px;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.social-media-id
+{
+    width: 30px;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+.social-media-name
+{
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}
+
+.social-media-link-type
+{
+    width: 90px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.social-media-link
+{
+    width: 280px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}
+
+.social-media-image
+{
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.social-media-queue-point
+{
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.social-media-update
+{
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.social-media-delete
+{
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.admin-blog-form-title
+{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-top: 5px;
+}
+
+.admin-blog-form-element
+{
+    width: 400px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}

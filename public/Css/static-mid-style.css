@@ -1,0 +1,19 @@
+#static-mid-wrapper
+{
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+#static-mid-context-arae
+{
+    width: 1024px;
+    height: auto;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}

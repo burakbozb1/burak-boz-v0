@@ -1,0 +1,72 @@
+.saveButton
+{
+    padding: 10px;
+    background-color: aqua;
+    margin-left: 10px;
+}
+
+.saveButton:hover
+{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.deleteButton
+{
+    padding: 10px;
+    background-color: red;
+    color: #000;
+    margin-left: 10px;
+}
+
+.deleteButton:hover
+{
+    padding: 10px;
+    background-color: darkred;
+    color: white;
+}
+
+.mTable
+{
+    border:0px;
+
+}
+.mTable thead
+{
+    border:0px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.mTable tbody
+{
+    border:0px;
+    
+}
+.mTable tr
+{
+    border:0px;
+}
+.mTable tr:hover
+{
+    background-color: antiquewhite;
+}
+.mTable tr td
+{
+    border:0px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+.selection-cell
+{
+    text-align: center;
+    cursor: pointer;
+}
+
+.input-type
+{
+    height: 25px;
+    padding: 3px;
+}
+
