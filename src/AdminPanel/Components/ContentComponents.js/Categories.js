@@ -34,138 +34,7 @@ class Categories extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            categories: [
-                // {
-                //     id: 1,
-                //     name: "Yazılım",
-                //     image: YazilimImage,
-                //     description: "Bu kategori altında yazılım ile ilgili bloglar bulunacaktır.",
-                //     subCategories: [
-                //         {
-                //             id: 1,
-                //             name: "C#",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 2,
-                //             name: "React",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 3,
-                //             name: "Node",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 4,
-                //             name: "Java",
-                //             image: ""
-                //         },
-                //     ]
-                // },
-                // {
-                //     id: 2,
-                //     name: "Robotik",
-                //     image: RobotikImage,
-                //     description: "Bu kategori altında robotik ile ilgili bloglar bulunacaktır.",
-                //     subCategories: [
-                //         {
-                //             id: 1,
-                //             name: "Arduino",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 2,
-                //             name: "Robotino",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 3,
-                //             name: "Parts",
-                //             image: ""
-                //         }
-                //     ]
-                // },
-                // {
-                //     id: 3,
-                //     name: "Müzik",
-                //     image: MusicImage,
-                //     description: "Bu kategori altında müzik ile ilgili bloglar bulunacaktır.",
-                //     subCategories: [
-                //         {
-                //             id: 1,
-                //             name: "Benim müziğim",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 2,
-                //             name: "Spotify listelerim",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 3,
-                //             name: "Youtube music listelerim",
-                //             image: ""
-                //         }
-                //     ]
-                // },
-                // {
-                //     id: 4,
-                //     name: "Gaming",
-                //     image: GamingImage,
-                //     description: "Bu kategori altında gaming hakkında bloglar bulunacaktır.",
-                //     subCategories: [
-                //         {
-                //             id: 1,
-                //             name: "Instagram",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 2,
-                //             name: "Twitter",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 3,
-                //             name: "Twitch",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 4,
-                //             name: "Youtube",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 5,
-                //             name: "LinkedIn",
-                //             image: ""
-                //         }
-                //     ]
-                // },
-                // {
-                //     id: 5,
-                //     name: "Havadan Sudan",
-                //     image: HavadanSudanImage,
-                //     description: "Maksat muhabbet alanı.",
-                //     subCategories: [
-                //         {
-                //             id: 1,
-                //             name: "Gezi",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 2,
-                //             name: "Sohbet",
-                //             image: ""
-                //         },
-                //         {
-                //             id: 3,
-                //             name: "Fikir",
-                //             image: ""
-                //         }
-                //     ]
-                // }
-            ],
+            categories: [],
             selectedCategoryType: null,
             subCategories: [],
             selectedMainCategory: {},
@@ -190,7 +59,6 @@ class Categories extends React.Component {
     async getData(){
         let url = services().adminService() + "Categories/withsubcategories";
         let response = await axios.get(url);
-        //console.log(response);
         this.setState(
             {
                 categories:response.data.data

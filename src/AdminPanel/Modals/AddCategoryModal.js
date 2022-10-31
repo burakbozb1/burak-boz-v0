@@ -48,7 +48,6 @@ class AddCategoryModal extends React.Component{
     handleFile = (e)=>
     {
         this.setState({image:e.target.files[0]})
-        
     }
 
     closeModal = () => 

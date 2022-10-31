@@ -1,5 +1,7 @@
 import React from "react";
 import Select from 'react-select';
+import axios from "axios";
+import services from "../../Common/Service";
 
 class UpdateSubCategoryModal extends React.Component{
 
@@ -14,11 +16,11 @@ class UpdateSubCategoryModal extends React.Component{
             newDescription:props.data.selectedSubCategory.description,
             newQueuePoint:props.data.selectedSubCategory.queuePoint,
             newMainCategory:props.data.selectedSubCategory.parentId
-
         }
+        this.submit = this.submit.bind(this);
     }
 
-    submit = () => 
+    submit()
     {
         console.log(this.state);
     }
